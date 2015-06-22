@@ -22,7 +22,7 @@ public class AnimaliaView extends JFrame {
     private AnimaliaMenu menu;
     private JScrollPane panel;
     private JPanel currentPanel;
-   
+   private boolean parar = true;
     public AnimaliaView() {
 
         super("Animalia");
